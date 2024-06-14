@@ -1,27 +1,26 @@
 /*EJERCICIO 12: Muestre un algoritmo que nos permita evaluar la función G(X)*/
+
+
 #include <iostream>
 using namespace std;
 int main(){
-	int x, y;
+	int a, b;
 	cout<<"Escriba una variable: "<<endl;
-	cin>>x;
+	cin>>a;
 	
-	if(x<=0){
-		y= x^2;
-		cout<<"El valor de y es: "<<y<<endl;
-	}else if(x<=8){
+	if(a<=0){
+		b= a^2;
+		cout<<"El valor de y es: "<<b<<endl;
+	}else if(a<=8){
 		
-		y=x-5;
-		cout<<"El valor de y es: "<<y<<endl;
+		b=a-5;
+		cout<<"El valor de y es: "<<b<<endl;
 
 	}else{
-		y=2*x;
-		cout<<"El valor de y es: "<<y<<endl;
+		b=2*a;
+		cout<<"El valor de y es: "<<b<<endl;
 
 	}
-	
-	
-	
 	return 0;
 }
 
