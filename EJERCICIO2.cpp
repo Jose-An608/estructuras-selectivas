@@ -3,17 +3,17 @@ S/.1000 ¿Cuál será la cantidad que pagara una persona por su compra?*/
 #include <iostream>
 using namespace std;
 int main(){
-	double precio_i, descuento, precio_f;
+	double x, d, y;
 	cout<<"De el precio de la compra: "<<endl;
-	cin>>precio_i;
+	cin>>x;
 	
-	if  (precio_i>1000){
-		descuento= precio_i*0.2;
-		precio_f= precio_i - descuento;
-		cout<<"Usted debe pagar: "<<precio_f<<endl;
+	if  (x>1000){
+		d= x*0.2;
+		y= x - d;
+		cout<<"Usted debe pagar: "<<y<<endl;
 	} else{
-		precio_f=precio_i;
-		cout<<"Usted debe pagar: "<<precio_f<<endl;
+		y=x;
+		cout<<"Usted debe pagar: "<<y<<endl;
 
 		}
 		
