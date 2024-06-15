@@ -5,6 +5,10 @@
 using namespace std;
 int main(){
 	int a, b;
+	
+	cout<<"BIENVENIDO AL PROGRAMA QUE EVALUA UNA FUNCION: "<<endl;
+	cout<<"-------------------------------------------------"<<endl;
+	
 	cout<<"Escriba una variable: "<<endl;
 	cin>>a;
 	
