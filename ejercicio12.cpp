@@ -2,11 +2,15 @@
 
 
 #include <iostream>
+#include <windows.h>
+
 using namespace std;
 int main(){
 	int a, b;
+	SetConsoleOutputCP(CP_UTF8);
+
 	
-	cout<<"BIENVENIDO AL PROGRAMA QUE EVALUA UNA FUNCION: "<<endl;
+	cout<<"BIENVENIDO AL PROGRAMA QUE EVALÚA UNA FUNCIÓN: "<<endl;
 	cout<<"-------------------------------------------------"<<endl;
 	
 	cout<<"Escriba una variable: "<<endl;
